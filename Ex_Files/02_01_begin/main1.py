@@ -1,4 +1,4 @@
-RUN_INTEDED=False
+RUN_INTEDED=True
 
 message="run unintded"
 
@@ -11,3 +11,4 @@ def my_function():
     great="hello"
     return great
 
+print(my_function())
