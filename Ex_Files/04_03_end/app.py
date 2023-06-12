@@ -20,7 +20,7 @@ def laureate_list():
     # template found in templates/laureate.html
     results = []
     if not request.args.get("surname"):
-        return jsonify(results)
+        return jsonify("results")
 
 
     search_string = request.args.get("surname").lower().strip()
